@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+   position: fixed;
+   width: 100vw;
+   z-index: 2;
+}
+.header {
+    background-image: url('../img/StockSnap_MRTPJW5I7U.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header .texto-header {
+    display: inline-block;
+    position: relative;
+    top: 30vh;
+    margin-left: 40vw;
+    width: 50vw;
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 5%;
+    color: #fff;
+}
+
+#contactos {
+    margin-top: 10vh;
+    padding: 20px;
+    background-color: #f3e0c5;
+}
+
+.card {
+    box-shadow: 1px 1px 4px rgba(128, 128, 128, 0.75);
+}
